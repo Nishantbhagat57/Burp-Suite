@@ -49,7 +49,7 @@ if (Test-Path Burp-Suite-Pro.jar){
     }else {echo "File Looks fine. Lets proceed for Execution"}
 }else {
     echo "`n`t`tDownloading Burp Suite Professional v2022.8.2 ...."
-    wget "https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.2&type=jar" -O "Burp-Suite-Pro.jar"
+    wget "https://portswigger-cdn.net/burp/releases/download?product=pro&type=jar" -O "Burp-Suite-Pro.jar"
     echo "`nBurp Suite Professional is Downloaded.`n"
 }
 
